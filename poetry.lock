@@ -153,7 +153,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "06d32abb3b000d90a69f98f8473ee512df6223cbef2430a358af5d8683f419af"
+content-hash = "36afe2073a2cd5ddf59f46ea72d220cf0736ca4e35ea1de1d4fabc020fe00dfc"
 
 [metadata.files]
 anyio = [

@@ -7,8 +7,8 @@ authors = ["Phillip Verheyden <pverheyden@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 fastapi = "^0.69.0"
-routing = { file = "here_api/routing-8.22.2.tar.gz" }
-geocoding = { file = "here_api/geocoding-7.74.tar.gz" }
+routing = { file = "./here_api/routing-8.22.2.tar.gz" }
+geocoding = { file = "./here_api/geocoding-7.74.tar.gz" }
 
 [tool.poetry.dev-dependencies]
 
