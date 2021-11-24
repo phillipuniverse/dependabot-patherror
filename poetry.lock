@@ -47,7 +47,7 @@ urllib3 = ">=1.25.3"
 
 [package.source]
 type = "file"
-url = "here_api/geocoding-7.74.tar.gz"
+url = "geocoding-7.74.tar.gz"
 
 [[package]]
 name = "idna"
@@ -97,7 +97,7 @@ urllib3 = ">=1.25.3"
 
 [package.source]
 type = "file"
-url = "here_api/routing-8.22.2.tar.gz"
+url = "routing-8.22.2.tar.gz"
 
 [[package]]
 name = "six"
@@ -153,7 +153,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "36afe2073a2cd5ddf59f46ea72d220cf0736ca4e35ea1de1d4fabc020fe00dfc"
+content-hash = "05535c009d4d92fd3020c80dabe3821628b94947e3c8090c7a00f71966bf8ceb"
 
 [metadata.files]
 anyio = [
