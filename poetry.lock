@@ -73,7 +73,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "a21928a12c347987807b007a3d1dd55a6bf0178753e7e042c1f2428d81dc5619"
+content-hash = "b7e12ed62d9c1eaec787a73be91d4282a675cccfff7b2e7506049a9ff4d04c8d"
 
 [metadata.files]
 geocoding = [
