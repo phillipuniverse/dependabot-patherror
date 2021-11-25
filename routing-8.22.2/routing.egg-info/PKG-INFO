@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: routing
+Version: 8.22.2
+Summary: Routing API v8
+Home-page: UNKNOWN
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+License: HERE Documentation License
+Description:     A location service providing customizable route calculations for a variety of vehicle types as well as pedestrian modes.  # noqa: E501
+            
+Keywords: OpenAPI,OpenAPI-Generator,Routing API v8
+Platform: UNKNOWN
+Requires-Python: >=3.6

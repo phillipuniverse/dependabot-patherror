@@ -40,14 +40,15 @@ description = "Geocoding and Search API v7"
 category = "main"
 optional = false
 python-versions = ">=3.6"
+develop = false
 
 [package.dependencies]
 python-dateutil = "*"
 urllib3 = ">=1.25.3"
 
 [package.source]
-type = "file"
-url = "geocoding-7.74.tar.gz"
+type = "directory"
+url = "geocoding-7.74"
 
 [[package]]
 name = "idna"
@@ -90,14 +91,15 @@ description = "Routing API v8"
 category = "main"
 optional = false
 python-versions = ">=3.6"
+develop = false
 
 [package.dependencies]
 python-dateutil = "*"
 urllib3 = ">=1.25.3"
 
 [package.source]
-type = "file"
-url = "routing-8.22.2.tar.gz"
+type = "directory"
+url = "routing-8.22.2"
 
 [[package]]
 name = "six"
@@ -153,7 +155,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "05535c009d4d92fd3020c80dabe3821628b94947e3c8090c7a00f71966bf8ceb"
+content-hash = "0925e65145bcbee1398f51afa8604c0733ae2d25d2d5e1da6e47f5f54d763522"
 
 [metadata.files]
 anyio = [
@@ -164,9 +166,7 @@ fastapi = [
     {file = "fastapi-0.69.0-py3-none-any.whl", hash = "sha256:b302119066fd17e6065ebc3c1496a2870d3b8dde17074fdee3f20c5347f0fc77"},
     {file = "fastapi-0.69.0.tar.gz", hash = "sha256:c5ebec13185878094d09e12508be5e8e1e002791dca716e20b5888bd95b25496"},
 ]
-geocoding = [
-    {file = "geocoding-7.74.tar.gz", hash = "sha256:1901edabedeafcee7d176939c58d965d606a5224a02c5bda9d27a6904c6a2e6c"},
-]
+geocoding = []
 idna = [
     {file = "idna-3.3-py3-none-any.whl", hash = "sha256:84d9dd047ffa80596e0f246e2eab0b391788b0503584e8945f2368256d2735ff"},
     {file = "idna-3.3.tar.gz", hash = "sha256:9d643ff0a55b762d5cdb124b8eaa99c66322e2157b69160bc32796e824360e6d"},
@@ -199,9 +199,7 @@ python-dateutil = [
     {file = "python-dateutil-2.8.2.tar.gz", hash = "sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86"},
     {file = "python_dateutil-2.8.2-py2.py3-none-any.whl", hash = "sha256:961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9"},
 ]
-routing = [
-    {file = "routing-8.22.2.tar.gz", hash = "sha256:9fcebd1aa9db2531e87a12403d79c8ea7bbcf9fcf28d205b9a950fd65e28063d"},
-]
+routing = []
 six = [
     {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
     {file = "six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
