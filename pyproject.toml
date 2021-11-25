@@ -6,9 +6,10 @@ authors = ["Phillip Verheyden <pverheyden@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-routing = { path = "./routing-8.22.2.tar.gz" }
-geocoding = { path = "./geocoding-7.74.tar.gz" }
+routing = { path = "./here_api/routing-8.22.2.tar.gz" }
+geocoding = { path = "./here_api/geocoding-7.74.tar.gz" }
 psycopg2-binary = "2.8.6"
+fastapi = "0.69.0"
 
 [tool.poetry.dev-dependencies]
 
