@@ -6,7 +6,7 @@ authors = ["Phillip Verheyden <pverheyden@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-fastapi = "^0.69.0"
+fastapi = "^0.70.0"
 routing = { path = "./routing-8.22.2" }
 geocoding = { path = "./geocoding-7.74" }
 
