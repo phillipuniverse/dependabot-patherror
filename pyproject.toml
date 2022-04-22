@@ -8,7 +8,7 @@ authors = ["Phillip Verheyden <pverheyden@gmail.com>"]
 python = "^3.8"
 routing = { path = "./here_api/routing-8.22.2.tar.gz" }
 geocoding = { path = "./here_api/geocoding-7.74.tar.gz" }
-psycopg2-binary = "2.8.6"
+psycopg2-binary = "2.9.2"
 pytest-httpx = "0.12.0"
 
 [tool.poetry.dev-dependencies]
